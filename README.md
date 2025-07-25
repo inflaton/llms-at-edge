@@ -1,14 +1,3 @@
----
-title: LLMs at the Edge: Performance and Efficiency Evaluation with Ollama on Diverse Hardware
-emoji: 💬
-colorFrom: yellow
-colorTo: purple
-sdk: gradio
-sdk_version: 4.36.1
-app_file: app.py
-pinned: false
----
-
 # LLMs at the Edge: Performance and Efficiency Evaluation with Ollama on Diverse Hardware
 
 ## Overview
