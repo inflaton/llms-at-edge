@@ -1,0 +1,2274 @@
+id,Headline,Details,Severity,Region,Datetime,lat,lon,maritime_label,found_ports,contains_port_info,if_labeled,Headline_Details,Year,Month,Week,Details_cleaned,Category,Summarized_label,gpt-4o_label,qwen2.5:0.5b/shots-10(0.373),qwen2.5:1.5b/shots-10(0.505),qwen2.5:3b/shots-10(0.808),qwen2.5:7b/shots-10(1.516),qwen2.5:14b/shots-10(2.844),qwen2.5:32b/shots-10(8.486),qwen2.5:72b/shots-10(14.338),llama3.2:1b/shots-10(0.735),llama3.2:3b/shots-10(0.872),llama3.1:8b/shots-10(1.429),llama3.2-vision:11b/shots-10(1.526),llama3.1:70b/shots-10(16.221),llama3.3:70b/shots-10(20.801),llama3.2-vision:90b/shots-10(24.310),qwen2.5:0.5b-instruct-fp16/shots-10(0.378),qwen2.5:1.5b-instruct-fp16/shots-10(0.672),qwen2.5:3b-instruct-fp16/shots-10(1.156),qwen2.5:7b-instruct-fp16/shots-10(2.120),qwen2.5:14b-instruct-fp16/shots-10(5.857),llama3.2:1b-instruct-fp16/shots-10(0.979),llama3.2:3b-instruct-fp16/shots-10(1.187),llama3.1:8b-instruct-fp16/shots-10(2.281),llama3.2-vision:11b-instruct-fp16/shots-10(2.322)
+1432,"Courts, schools and hospitals evacuated across Saint Petersberg due to anonymous threats","Russian media sources are reporting that courts, schools, and hospitals across Saint Petersberg have been evacuated today due to anonymous threats. It is understood that people have been evacuated from Petrodvorets, Oktyabrsky, Kolpinsky, Petrogradsky, Kuibyshevsky and Sestroretsky district courts. Furthermore, the State University of the Sea and River Fleet, St. Petersburg State University of Railway Engineering, Higher School of Folk Arts, St. Petersburg State University of Telecommunications, and S.M. Military Medical Academy Kirov have all been evacuated. This is the fourth consecutive week of evacuations from public buildings due to such threats. It is not known when the situation will normalise.",Moderate,Russia,2019-12-26 16:42:00,,,False,['st petersburg'],True,False,"Courts, schools and hospitals evacuated across Saint Petersberg due to anonymous threats Russian media sources are reporting that courts, schools, and hospitals across Saint Petersberg have been evacuated today due to anonymous threats. It is understood that people have been evacuated from Petrodvorets, Oktyabrsky, Kolpinsky, Petrogradsky, Kuibyshevsky and Sestroretsky district courts. Furthermore, the State University of the Sea and River Fleet, St. Petersburg State University of Railway Engineering, Higher School of Folk Arts, St. Petersburg State University of Telecommunications, and S.M. Military Medical Academy Kirov have all been evacuated. This is the fourth consecutive week of evacuations from public buildings due to such threats. It is not known when the situation will normalise.",2019,12,52,russian medium source reporting court school hospital across saint petersberg evacuated today due anonymous threat understood people evacuated petrodvorets oktyabrsky kolpinsky petrogradsky kuibyshevsky sestroretsky district court furthermore state university sea river fleet st. petersburg state university railway engineering higher school folk art st. petersburg state university telecommunication s.m military medical academy kirov evacuated fourth consecutive week evacuation public building due threat known situation normalise,Public Safety / Security,Terrorism,"{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Public Safety"", ""Security""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Others"",
+  ""specific_tags"": [""Miscellaneous Strikes"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}
+
+ 
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+ 
+  
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+ 
+ ","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Public Safety"", ""Security""]
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}
+
+ 
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+ ","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Public Safety"", ""Security""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Public Safety"", ""Security""]
+}"
+4061,Quarantine Requirements in China Reportedly Impact Air Cargo; Economic Disruptions Persist,"On Thursday, it was reported that the operations of U.S. air cargo companies like FedEx and UPS had been affected by novel coronavirus (COVID-19) quarantine and testing measures imposed by some officials in China. There have been reports that Chinese officials told some flight crews that they would be required to quarantine in a government facility, despite the standard practice of crews being allowed to isolate in a hotel and fly out later. These restrictions vary depending on the city and province, with officials in Shanghai reportedly not imposing such measures in order to facilitate air cargo. Pilots have also been subjected to an enhanced nose and throat testing policy and protests from the pilots have resulted in visa cancellation threats. 
+
+
+
+Assessment: The disruptions experienced by air cargo operators highlight the continued impact that quarantine measures are having on China’s economy and associated supply chains, despite the country largely having their outbreak under control. The government is taking significant measures in order to prevent a resurgence of cases, with 600,000 people in Henan Province being locked down after three new cases were reported in the county of Jia. Even though China’s economy is restarting, the collapse in global demand is having a severe impact on Chinese manufacturers, who are facing widespread order cancellations. Chinese ports are expecting shipping volumes to decrease by up to ten percent in the second quarter of the year as a result. Individuals are advised to expect supply chain disruptions associated with China to continue, either due to quarantine measures, new lockdowns, financial pressure on factories, or a variety of other factors.",Minor,China,2020-03-04 22:35:00,,,False,['shanghai'],True,True,"Quarantine Requirements in China Reportedly Impact Air Cargo; Economic Disruptions Persist On Thursday, it was reported that the operations of U.S. air cargo companies like FedEx and UPS had been affected by novel coronavirus (COVID-19) quarantine and testing measures imposed by some officials in China. There have been reports that Chinese officials told some flight crews that they would be required to quarantine in a government facility, despite the standard practice of crews being allowed to isolate in a hotel and fly out later. These restrictions vary depending on the city and province, with officials in Shanghai reportedly not imposing such measures in order to facilitate air cargo. Pilots have also been subjected to an enhanced nose and throat testing policy and protests from the pilots have resulted in visa cancellation threats. 
+
+
+
+Assessment: The disruptions experienced by air cargo operators highlight the continued impact that quarantine measures are having on China’s economy and associated supply chains, despite the country largely having their outbreak under control. The government is taking significant measures in order to prevent a resurgence of cases, with 600,000 people in Henan Province being locked down after three new cases were reported in the county of Jia. Even though China’s economy is restarting, the collapse in global demand is having a severe impact on Chinese manufacturers, who are facing widespread order cancellations. Chinese ports are expecting shipping volumes to decrease by up to ten percent in the second quarter of the year as a result. Individuals are advised to expect supply chain disruptions associated with China to continue, either due to quarantine measures, new lockdowns, financial pressure on factories, or a variety of other factors.",2020,3,10,"thursday reported operation u.s. air cargo company like fedex ups affected novel coronavirus covid-19 quarantine testing measure imposed official china report chinese official told flight crew would required quarantine government facility despite standard practice crew allowed isolate hotel fly later restriction vary depending city province official shanghai reportedly imposing measure order facilitate air cargo pilot also subjected enhanced nose throat testing policy protest pilot resulted visa cancellation threat assessment disruption experienced air cargo operator highlight continued impact quarantine measure china ’ economy associated supply chain despite country largely outbreak control government taking significant measure order prevent resurgence case 600,000 people henan province locked three new case reported county jia even though china ’ economy restarting collapse global demand severe impact chinese manufacturer facing widespread order cancellation chinese port expecting shipping volume decrease ten percent second quarter year result individual advised expect supply chain disruption associated china continue either due quarantine measure new lockdown financial pressure factory variety factor",Regulatory Advisory,Administrative Issue,"{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Public Health Advisory"", ""Cargo Disruption""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Others"",
+  ""specific_tags"": [""Miscellaneous Strikes"", ""Outbreak Of War""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Customs Delay"", ""Port Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Customs Regulation"", ""Trade Restrictions""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Customs Regulation"", ""Public Health Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Customs Regulation"", ""Trade Restrictions"", ""Public Health Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Customs Regulation"", ""Public Health Advisory"", ""Travel Warning"", ""Port Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Quarantine Requirements"", ""Economic Disruptions""]
+}
+
+ 
+  
+        
+    
+        
+      
+        
+        
+        
+          
+        
+            
+        
+              
+        
+                
+        
+                  
+        
+                    
+        
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Supply Chain Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Customs Delay""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Customs Delay""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Public Health Advisory"", ""Travel Warning""]
+}
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Quarantine Requirements"", ""Public Health Advisory"", ""Trade Restrictions""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Public Health Advisory"", ""Quarantine Requirements""]
+}
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Bomb Threat"", ""Public Safety""]
+}","{
+  ""category"": ""Others"",
+  ""specific_tags"": [""Miscellaneous Strikes"", ""Outbreak Of War""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Customs Delay"", ""Port Disruption"", ""Regulatory Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Customs Regulation"", ""Public Health Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Customs Regulation"", ""Public Health Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Quarantine Requirements"", ""Economic Disruptions""]
+}
+
+ 
+  
+        
+    
+        
+      
+        
+        
+        
+          
+        
+            
+        
+              
+        
+                
+        
+                  
+        
+                    
+        
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Supply Chain Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Customs Delay""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Customs Delay""]
+}"
+75,Average waiting time about 0.5 to 1 day at Port of Busan,"Local sources on December 12 report that the waiting time for vessels to berth at the Port of Busan is about 0.5 to 1 day. According to sources, yard density in Busan New Container Terminal is at a high point of about 90 percent capacity.",Minor,Republic of Korea,2018-12-13 05:38:00,35.10361,129.04228,True,['busan'],True,True,"Average waiting time about 0.5 to 1 day at Port of Busan Local sources on December 12 report that the waiting time for vessels to berth at the Port of Busan is about 0.5 to 1 day. According to sources, yard density in Busan New Container Terminal is at a high point of about 90 percent capacity.",2018,12,50,local source december 12 report waiting time vessel berth port busan 0.5 1 day according source yard density busan new container terminal high point 90 percent capacity,Port Congestion,Administrative Issue,"{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Severe Winds"", ""Average Waiting Time""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Water""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Port Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Yard Density""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Cargo Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Cargo Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Delay""]
+}","{
+
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Water"", ""Flooding""]
+
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Maritime Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Yard Density""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Yard Density""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Port Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Severe Winds""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Water"", ""Hail""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Cargo Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Delay""]
+}","{
+
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Water"", ""Flooding""]
+
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Cargo""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Yard Density""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Yard Density""]
+}"
+3543,Freight train derailment at Oak Point Rail Yard in New York disrupts rail services in the area,"On September 8, media sources reported that a CSX freight train derailed four train cars in the Oak Point Rail Yard in New York, United States, at 17:16 local time on September 8. No injuries were reported and no hazardous materials were involved. The incident reportedly caused delays and an electrical outage on passenger trains in the area, which have since resumed.",Moderate,United States,2020-09-09 16:32:00,40.81225,-73.89687,False,['new york'],True,True,"Freight train derailment at Oak Point Rail Yard in New York disrupts rail services in the area On September 8, media sources reported that a CSX freight train derailed four train cars in the Oak Point Rail Yard in New York, United States, at 17:16 local time on September 8. No injuries were reported and no hazardous materials were involved. The incident reportedly caused delays and an electrical outage on passenger trains in the area, which have since resumed.",2020,9,37,september 8 medium source reported csx freight train derailed four train car oak point rail yard new york united state 17:16 local time september 8. injury reported hazardous material involved incident reportedly caused delay electrical outage passenger train area since resumed,Train Accident / Derailment,Accident,"{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Cargo Theft"", ""Organized Crime""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Derailment"", ""Electrical Outage""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Electrical Outage""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment"", ""Telecom Outage""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Railway Accident""]
+}
+
+ 
+
+ 
+  ","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Maritime Accident"", ""Train Accident""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Cargo Theft"", ""Organized Crime""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Derailment"", ""Railway Incident""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Electrical Outage""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Railway Accident""]
+}
+
+ 
+
+ 
+  ","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Electrical Outage""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Train Accident"", ""Derailment""]
+}"
+3922,Port Captaincy of Cartagena Dimar declared for the second time that Hotel Las,"Port Captaincy of Cartagena Dimar declared for the second time that Hotel Las Américas was responsible for the undue occupation of the beach and mangrove area, on which the hotel owners did not comment.",Minor,Colombia,2020-04-09 12:22:00,,,False,['cartagena'],True,False,"Port Captaincy of Cartagena Dimar declared for the second time that Hotel Las Port Captaincy of Cartagena Dimar declared for the second time that Hotel Las Américas was responsible for the undue occupation of the beach and mangrove area, on which the hotel owners did not comment.",2020,4,15,port captaincy cartagena dimar declared second time hotel la américas responsible undue occupation beach mangrove area hotel owner comment,"Miscellaneous Events, Political Info / Event",Administrative Issue,"{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Regulatory Advisory""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Occupation"", ""Public Safety""]
+}","{
+  ""category"": ""Others"",
+  ""specific_tags"": [""Miscellaneous Strikes""]
+}","{
+  ""category"": ""Others"",
+  ""specific_tags"": [""Miscellaneous Strikes""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Disruption""]
+} 
+
+		  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Regulatory Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Regulatory Advisory"", ""Environmental Regulations""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Regulatory Advisory"", ""Environmental Regulations""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Public Safety Advisory""]
+}
+
+ 
+
+ 
+   ","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Environmental Regulations""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Regulatory Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Regulatory Advisory""]
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Regulatory Advisory""]
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Closure"", ""Regulatory Advisory""]
+}
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Human Error"",
+  ""specific_tags"": [""Occupation""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Cargo Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Maritime Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Regulatory Advisory"", ""Disruption""]
+}","{
+
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Public Safety Advisory""]
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Regulatory Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Regulatory Advisory""]
+}"
+3832,No congestion at Port of Manila,No congestion has been reported at the Port of Manila for this week.,Moderate,Philippines,2020-02-18 02:10:00,,,False,['manila'],True,True,No congestion at Port of Manila No congestion has been reported at the Port of Manila for this week.,2020,2,8,congestion reported port manila week,Port Congestion,Administrative Issue,"{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": []
+}","{
+  ""category"": ""Others"",
+  ""specific_tags"": []
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Disruption""]
+} 
+
+		  
+  
+  
+  
+   
+  
+  
+   
+  
+  
+   
+  
+  
+   
+  
+  
+   
+  
+  
+   
+  
+  
+   
+  
+  
+   
+  
+  
+   
+  
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption""]
+} 
+
+  
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ ","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+} 
+
+					      		
+					        
+					     
+						  
+						 
+						
+					   
+					      
+					         
+					
+					   
+					      
+					 
+					    
+					   
+					      
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Others"",
+  ""specific_tags"": []
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""None"",
+  ""specific_tags"": []
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": []
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Maritime Advisory""]
+} 
+
+  		
+		      
+   
+  		 		 
+  		  
+		
+  	
+  		
+  		
+      
+       	   
+       	     
+       	   		  
+       		   	
+       		    
+","{
+  ""category"": ""Others"",
+  ""specific_tags"": []
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Maritime Advisory""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}"
+317,India: Chennai forecast to be impacted by north-east monsoon rains around 26 October,"According to forecasts by the Regional Meteorological Centre, Chennai is expected to be impacted by north-east monsoon rains around 26 October. There are understood to be two weather systems developing low pressure across the Gulf of Thailand; over the North Andaman Sea and the south-west Bay of Bengal off the Tamil Nadu coast. These weather systems are likely to intensify. Travellers are advised to monitor local media reports and forecasts for the latest developments. Note the potential for significant disruptions associated with monsoon rains.",Moderate,India,2018-10-22 14:55:00,13.0833,80.2833,False,['chennai'],True,False,"India: Chennai forecast to be impacted by north-east monsoon rains around 26 October According to forecasts by the Regional Meteorological Centre, Chennai is expected to be impacted by north-east monsoon rains around 26 October. There are understood to be two weather systems developing low pressure across the Gulf of Thailand; over the North Andaman Sea and the south-west Bay of Bengal off the Tamil Nadu coast. These weather systems are likely to intensify. Travellers are advised to monitor local media reports and forecasts for the latest developments. Note the potential for significant disruptions associated with monsoon rains.",2018,10,43,according forecast regional meteorological centre chennai expected impacted north-east monsoon rain around 26 october understood two weather system developing low pressure across gulf thailand north andaman sea south-west bay bengal tamil nadu coast weather system likely intensify traveller advised monitor local medium report forecast latest development note potential significant disruption associated monsoon rain,Weather Advisory,Weather,"{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Monsoon"", ""Weather Advisory""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""North-East Monsoon""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""North-East Monsoon"", ""Rain""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""North-East Monsoon Rains""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Storm""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Flooding"", ""Storm""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Storm"", ""Weather Advisory""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Flooding"", ""Severe Winds"", ""Weather Advisory""]
+}","{ 
+  ""category"": ""Weather"",
+  ""specific_tags"": [""North-East Monsoon"", ""Chennai""]
+}
+
+ 
+
+  
+  
+        
+   
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Flooding"", ""Monsoon""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Flooding"", ""Storm""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Flooding"", ""Storm""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Monsoon Rains"", ""Storm""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Monsoon Rains"", ""Storm""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Monsoon Rains"", ""Storm""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""North-East Monsoon""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""North-East Monsoon"", ""Rain""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""North-East Monsoon Rains""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Tropical Cyclone"", ""Weather Advisory""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Flooding"", ""Storm""]
+}","{ 
+  ""category"": ""Weather"",
+  ""specific_tags"": [""North-East Monsoon"", ""Chennai""]
+}
+
+ 
+
+  
+  
+        
+   
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+  
+   
+
+
+
+","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Monsoon"", ""Rain""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Flooding"", ""Storm""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Flooding"", ""Storm""]
+}"
+1588,Greece Multiple service sectors were impacted during a 24-hour strike on Wednesday. Incident closed.,"Media sources reported that multiple unions called for a 24-hour nationwide strike across Greece on Wednesday, October 2. The strike impacted public transportation, banks, civil servants, and journalists. Public transport in central Athens was reduced, and public transportation in Thessaloniki was suspended. Sources indicated that hospital working hours were reduced from 10:00 AM to 3:00 PM local time during the strike. Ferries were also expected to be disrupted at ports in Piraeus, Rafina, and Lavrio. Protest marches were planned at unspecified locations in Athens, Thessaloniki, and Piraeus. The strike was called to protest against new labor laws. Residual disruptions are possible. This incident is closed.",Moderate,Greece,2019-01-10 11:14:00,,,False,['piraeus'],True,True,"Greece Multiple service sectors were impacted during a 24-hour strike on Wednesday. Incident closed. Media sources reported that multiple unions called for a 24-hour nationwide strike across Greece on Wednesday, October 2. The strike impacted public transportation, banks, civil servants, and journalists. Public transport in central Athens was reduced, and public transportation in Thessaloniki was suspended. Sources indicated that hospital working hours were reduced from 10:00 AM to 3:00 PM local time during the strike. Ferries were also expected to be disrupted at ports in Piraeus, Rafina, and Lavrio. Protest marches were planned at unspecified locations in Athens, Thessaloniki, and Piraeus. The strike was called to protest against new labor laws. Residual disruptions are possible. This incident is closed.",2019,1,2,medium source reported multiple union called 24-hour nationwide strike across greece wednesday october 2. strike impacted public transportation bank civil servant journalist public transport central athens reduced public transportation thessaloniki suspended source indicated hospital working hour reduced 10:00 3:00 pm local time strike ferry also expected disrupted port piraeus rafina lavrio protest march planned unspecified location athens thessaloniki piraeus strike called protest new labor law residual disruption possible incident closed,General Strike,Worker Strike,"{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Civil Service Strike"", ""Public Transportation Disruption""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""Protest"", ""Civil Unrest Advisory""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Civil Service Strike""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Civil Service Strike""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Public Transportation Disruption"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Public Transportation Disruption"", ""Civil Service Strike"", ""Protest""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Public Safety"", ""Protest"", ""Strike""]
+}
+
+ 
+
+ 
+ ","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""Strike"", ""Public Transportation Disruption"", ""Banks Affected"", ""Civil Servants Affected""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Civil Unrest Advisory""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Production Halt""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""Protest"", ""Civil Unrest Advisory""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Civil Service Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Civil Service Strike"", ""Protest""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""Protest"", ""Civil Unrest Advisory""]
+}
+
+ 
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+  
+
+
+
+
+
+ 
+ ","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Public Transportation Disruption""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Civil Unrest Advisory""]
+}","{
+  ""category"": ""Worker Strike"",
+  ""specific_tags"": [""General Strike"", ""Civil Unrest Advisory""]
+}"
+835,UPDATE: Berthing time around 1-2 days,Updated sources on September 14 reported that the current vessels’ waiting time for a berth at the Port of Shanghai is around 1 to 2 days. The port faced significant congestion earlier in the week.,Moderate,China,2018-08-14 03:08:00,31.32153,121.65497,False,['shanghai'],True,False,UPDATE: Berthing time around 1-2 days Updated sources on September 14 reported that the current vessels’ waiting time for a berth at the Port of Shanghai is around 1 to 2 days. The port faced significant congestion earlier in the week.,2018,8,33,updated source september 14 reported current vessel ’ waiting time berth port shanghai around 1 2 day port faced significant congestion earlier week,"Port Congestion, Cargo Disruption",Administrative Issue,"{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Delay""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Severe Winds"", ""Port Congestion""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Delay""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Delay""]
+}","{
+
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Disruption""]
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Berthing Time""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Berthing Delay""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Severe Winds""]
+}","{
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Cargo Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Delay""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Delay""]
+}","{
+
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Disruption""]
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Disruption"", ""Congestion""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Disruption""]
+}","{
+  ""category"": ""Administrative Issue"",
+  ""specific_tags"": [""Port Congestion"", ""Disruption""]
+}"
+3379,Container truck burns near BASF in Antwerp,Local media sources indicate on August 18 that a fire broke out in a truck hauling a Triton container full of milk powder near a BASF facility in Antwerp. The truck's driver was injured while trying to extinguish the blaze.,Minor,Belgium,2020-08-18 21:31:00,51.35373,4.27208,True,['antwerp'],True,True,Container truck burns near BASF in Antwerp Local media sources indicate on August 18 that a fire broke out in a truck hauling a Triton container full of milk powder near a BASF facility in Antwerp. The truck's driver was injured while trying to extinguish the blaze.,2020,8,34,local medium source indicate august 18 fire broke truck hauling triton container full milk powder near basf facility antwerp truck 's driver injured trying extinguish blaze,Industrial Fire,Accident,"{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident"", ""Injury"", ""Non-industrial Fire""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Cargo Theft"", ""Organized Crime""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire"", ""Workplace Accident""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident"", ""Non-industrial Fire""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire"", ""Injury""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident"", ""Non-industrial Fire"", ""Injury""]
+}","{
+
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Fire"", ""Incident""]
+
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire"", ""Vehicle Accident""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire"", ""Vehicle Accident""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident"", ""Industrial Fire""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident"", ""Industrial Fire""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident"", ""Industrial Fire""]
+}","{
+  ""category"": ""Terrorism"",
+  ""specific_tags"": [""Cargo Theft"", ""Organized Crime""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident"", ""Hazmat Response""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire"", ""Workplace Accident""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Vehicle Accident"", ""Non-industrial Fire""]
+}","{
+
+  ""category"": ""Weather"",
+  ""specific_tags"": [""Fire"", ""Incident""]
+
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire"", ""Vehicle Accident""]
+}","{
+  ""category"": ""Accident"",
+  ""specific_tags"": [""Non-industrial Fire"", ""Vehicle Accident""]
+}"

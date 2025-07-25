@@ -1,0 +1,196 @@
+Submitting job: /common/home/users/d/dh.huang.2023/code/classification-models-for-global-incidents/scripts/eval.sh
+Current Directory:
+/common/home/users/d/dh.huang.2023/code/classification-models-for-global-incidents
+Wed Sep  4 11:26:23 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40                     On  |   00000000:01:00.0 Off |                    0 |
+| N/A   35C    P8             35W /  300W |       1MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Linux lagoon 4.18.0-553.5.1.el8_10.x86_64 #1 SMP Thu Jun 6 09:41:19 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+NAME="Rocky Linux"
+VERSION="8.10 (Green Obsidian)"
+ID="rocky"
+ID_LIKE="rhel centos fedora"
+VERSION_ID="8.10"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Rocky Linux 8.10 (Green Obsidian)"
+ANSI_COLOR="0;32"
+LOGO="fedora-logo-icon"
+CPE_NAME="cpe:/o:rocky:rocky:8:GA"
+HOME_URL="https://rockylinux.org/"
+BUG_REPORT_URL="https://bugs.rockylinux.org/"
+SUPPORT_END="2029-05-31"
+ROCKY_SUPPORT_PRODUCT="Rocky-Linux-8"
+ROCKY_SUPPORT_PRODUCT_VERSION="8.10"
+REDHAT_SUPPORT_PRODUCT="Rocky Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.10"
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              128
+On-line CPU(s) list: 0-127
+Thread(s) per core:  2
+Core(s) per socket:  64
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          25
+Model:               1
+Model name:          AMD EPYC 7763 64-Core Processor
+Stepping:            1
+CPU MHz:             2450.000
+CPU max MHz:         3529.0520
+CPU min MHz:         1500.0000
+BogoMIPS:            4891.15
+Virtualization:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            32768K
+NUMA node0 CPU(s):   0-127
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd amd_ppin brs arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm
+MemTotal:       527669148 kB
+Current Directory:
+/common/home/users/d/dh.huang.2023/code/classification-models-for-global-incidents
+Evaluating meta-llama/Meta-Llama-3.1-70B-Instruct
+loading env vars from: /common/home/users/d/dh.huang.2023/common2/code/classification-models-for-global-incidents/.env
+Adding /common/home/users/d/dh.huang.2023/common2/code/classification-models-for-global-incidents to sys.path
+loading /common/home/users/d/dh.huang.2023/common2/code/classification-models-for-global-incidents/llm_toolkit/data_utils.py
+CUDA is available, we have found  1  GPU(s)
+NVIDIA L40
+CUDA version: 12.1
+meta-llama/Meta-Llama-3.1-70B-Instruct None True dataset/global_incidents_v2.csv results/open_source_model_results_v2_4bit.csv False 2048 1
+(0) GPU = NVIDIA L40. Max memory = 44.309 GB.
+0.0 GB of memory reserved.
+loading model: meta-llama/Meta-Llama-3.1-70B-Instruct with adapter: None
+Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:04<01:57,  4.06s/it]Loading checkpoint shards:   7%|▋         | 2/30 [00:08<01:59,  4.28s/it]Loading checkpoint shards:  10%|█         | 3/30 [00:13<02:00,  4.47s/it]Loading checkpoint shards:  13%|█▎        | 4/30 [00:17<01:57,  4.52s/it]Loading checkpoint shards:  17%|█▋        | 5/30 [00:21<01:49,  4.37s/it]Loading checkpoint shards:  20%|██        | 6/30 [00:26<01:44,  4.37s/it]Loading checkpoint shards:  23%|██▎       | 7/30 [00:30<01:40,  4.37s/it]Loading checkpoint shards:  27%|██▋       | 8/30 [00:35<01:37,  4.44s/it]Loading checkpoint shards:  30%|███       | 9/30 [00:39<01:33,  4.48s/it]Loading checkpoint shards:  33%|███▎      | 10/30 [00:43<01:27,  4.37s/it]Loading checkpoint shards:  37%|███▋      | 11/30 [00:48<01:22,  4.36s/it]Loading checkpoint shards:  40%|████      | 12/30 [00:52<01:18,  4.34s/it]Loading checkpoint shards:  43%|████▎     | 13/30 [00:57<01:15,  4.42s/it]Loading checkpoint shards:  47%|████▋     | 14/30 [01:01<01:11,  4.46s/it]Loading checkpoint shards:  50%|█████     | 15/30 [01:05<01:05,  4.34s/it]Loading checkpoint shards:  53%|█████▎    | 16/30 [01:10<01:00,  4.34s/it]Loading checkpoint shards:  57%|█████▋    | 17/30 [01:14<00:56,  4.34s/it]Loading checkpoint shards:  60%|██████    | 18/30 [01:19<00:53,  4.42s/it]Loading checkpoint shards:  63%|██████▎   | 19/30 [01:23<00:49,  4.47s/it]Loading checkpoint shards:  67%|██████▋   | 20/30 [01:27<00:43,  4.36s/it]Loading checkpoint shards:  70%|███████   | 21/30 [01:32<00:39,  4.35s/it]Loading checkpoint shards:  73%|███████▎  | 22/30 [01:36<00:34,  4.36s/it]Loading checkpoint shards:  77%|███████▋  | 23/30 [01:41<00:31,  4.43s/it]Loading checkpoint shards:  80%|████████  | 24/30 [01:45<00:26,  4.46s/it]Loading checkpoint shards:  83%|████████▎ | 25/30 [01:49<00:21,  4.35s/it]Loading checkpoint shards:  87%|████████▋ | 26/30 [01:53<00:17,  4.34s/it]Loading checkpoint shards:  90%|█████████ | 27/30 [01:58<00:13,  4.34s/it]Loading checkpoint shards:  93%|█████████▎| 28/30 [02:02<00:08,  4.40s/it]Loading checkpoint shards:  97%|█████████▋| 29/30 [02:07<00:04,  4.49s/it]Loading checkpoint shards: 100%|██████████| 30/30 [02:09<00:00,  3.66s/it]Loading checkpoint shards: 100%|██████████| 30/30 [02:09<00:00,  4.31s/it]
+Adding pad token to tokenizer for model:  meta-llama/Meta-Llama-3.1-70B-Instruct
+(2) GPU = NVIDIA L40. Max memory = 44.309 GB.
+41.822 GB of memory reserved.
+Evaluating model: meta-llama/Meta-Llama-3.1-70B-Instruct on cuda
+*** Evaluating with num_shots: 0
+loading train/test data files
+DatasetDict({
+    train: Dataset({
+        features: ['Details', 'Details_cleaned', 'Category', 'Summarized_label', 'text', 'prompt'],
+        num_rows: 4597
+    })
+    test: Dataset({
+        features: ['Details', 'Details_cleaned', 'Category', 'Summarized_label', 'text', 'prompt'],
+        num_rows: 1147
+    })
+})
+--------------------------------------------------
+Details: Russian media sources are reporting that courts, schools, and hospitals across Saint Petersberg have been evacuated today due to anonymous threats. It is understood that people have been evacuated from Petrodvorets, Oktyabrsky, Kolpinsky, Petrogradsky, Kuibyshevsky and Sestroretsky district courts. Furthermore, the State University of the Sea and River Fleet, St. Petersburg State University of Railway Engineering, Higher School of Folk Arts, St. Petersburg State University of Telecommunications, and S.M. Military Medical Academy Kirov have all been evacuated. This is the fourth consecutive week of evacuations from public buildings due to such threats. It is not known when the situation will normalise.
+--------------------------------------------------
+Details_cleaned: russian medium source reporting court school hospital across saint petersberg evacuated today due anonymous threat understood people evacuated petrodvorets oktyabrsky kolpinsky petrogradsky kuibyshevsky sestroretsky district court furthermore state university sea river fleet st. petersburg state university railway engineering higher school folk art st. petersburg state university telecommunication s.m military medical academy kirov evacuated fourth consecutive week evacuation public building due threat known situation normalise
+--------------------------------------------------
+Category: Public Safety / Security
+--------------------------------------------------
+Summarized_label: Terrorism
+--------------------------------------------------
+text: <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Task: You are a classifier. Your objective is to analyze the given input and assign it to one of the predefined categories: ['Weather', 'Worker Strike', 'Administrative Issue', 'Human Error', 'Cyber Attack', 'Terrorism', 'Accident', 'Others']. Evaluate the content carefully and use the defining characteristics of each category to ensure an accurate classification.
+
+Guidelines:
+
+1. Understand the Categories: Each category has specific attributes that distinguish it. Familiarize yourself with these attributes by referring to the category descriptions provided in the JSON: {{'Weather': ['Flooding', 'Severe Winds', 'Weather Advisory', 'Tropical Cyclone', 'Storm', 'Ice Storm', 'Earthquake', 'Tornado', 'Typhoon', 'Landslide', 'Water', 'Hurricane', 'Wildfire', 'Blizzard', 'Hail'], 'Worker Strike': ['Mine Workers Strike', 'Production Halt', 'Protest', 'Riot', 'Port Strike', 'General Strike', 'Civil Service Strike', 'Civil Unrest Advisory', 'Cargo Transportation Strike', 'Energy Sector Strike'], 'Administrative Issue': ['Port Congestion', 'Police Operations', 'Roadway Closure', 'Disruption', 'Cargo', 'Industrial Action', 'Port Disruption', 'Cargo Disruption', 'Power Outage', 'Port Closure', 'Maritime Advisory', 'Train Delays', 'Ground Transportation Advisory', 'Public Transportation Disruption', 'Trade Regulation', 'Customs Regulation', 'Regulatory Advisory', 'Industry Directives', 'Security Advisory', 'Public Holidays', 'Customs Delay', 'Public Health Advisory', 'Detention', 'Aviation Advisory', 'Waterway Closure', 'Plant Closure', 'Border Closure', 'Delay', 'Industrial zone shutdown', 'Trade Restrictions', 'Closure', 'Truck Driving Ban', 'Insolvency', 'Environmental Regulations', 'Postal Disruption', 'Travel Warning'], 'Human Error': ['Workplace Accident', 'Individuals in Focus', 'Military Operations', 'Flight Delays', 'Cancellations', 'Political Info', 'Political Event'], 'Cyber Attack': ['Network Disruption', 'Ransomware', 'Data breach', 'Phishing'], 'Terrorism': ['Bombing', 'Warehouse Theft', 'Public Safety', 'Security', 'Organized Crime', 'Piracy', 'Kidnap', 'Shooting', 'Robbery', 'Cargo theft', 'Bomb Detonation', 'Terror Attack', 'Outbreak Of War', 'Militant Action'], 'Accident': ['Hazmat Response', 'Maritime Accident', 'Vehicle Accident', 'Death', 'Injury', 'Non-industrial Fire', 'Chemical Spill', 'Industrial Fire', 'Fuel Disruption', 'Airline Incident', 'Crash', 'Explosion', 'Train Accident', 'Derailment', 'Sewage Disruption', 'Barge Accident', 'Bridge Collapse', 'Structure Collapse', 'Airport Accident', 'Force Majeure', 'Telecom Outage'], 'Others': ['Miscellaneous Events', 'Miscellaneous Strikes', 'Outbreak of disease']}}.
+2. Contextual Analysis: Consider the broader context of the input. If an input could potentially fit into multiple categories, select the one that best reflects its primary intent or focus.
+3. Handling Ambiguity: For ambiguous inputs or those that do not clearly align with any category, choose the category that most closely matches the content provided.
+4. Ensure Accuracy and Consistency: Strive for consistent and accurate classifications. Avoid arbitrary or random assignments.
+5. Provide Feedback: If the input cannot be classified into any of the given categories, return “Others”.
+
+
+Output Format: Return only the name of the category that the input belongs to. If uncertain, respond with “Others”.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+russian medium source reporting court school hospital across saint petersberg evacuated today due anonymous threat understood people evacuated petrodvorets oktyabrsky kolpinsky petrogradsky kuibyshevsky sestroretsky district court furthermore state university sea river fleet st. petersburg state university railway engineering higher school folk art st. petersburg state university telecommunication s.m military medical academy kirov evacuated fourth consecutive week evacuation public building due threat known situation normalise<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Terrorism<|eot_id|>
+--------------------------------------------------
+prompt: <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Task: You are a classifier. Your objective is to analyze the given input and assign it to one of the predefined categories: ['Weather', 'Worker Strike', 'Administrative Issue', 'Human Error', 'Cyber Attack', 'Terrorism', 'Accident', 'Others']. Evaluate the content carefully and use the defining characteristics of each category to ensure an accurate classification.
+
+Guidelines:
+
+1. Understand the Categories: Each category has specific attributes that distinguish it. Familiarize yourself with these attributes by referring to the category descriptions provided in the JSON: {{'Weather': ['Flooding', 'Severe Winds', 'Weather Advisory', 'Tropical Cyclone', 'Storm', 'Ice Storm', 'Earthquake', 'Tornado', 'Typhoon', 'Landslide', 'Water', 'Hurricane', 'Wildfire', 'Blizzard', 'Hail'], 'Worker Strike': ['Mine Workers Strike', 'Production Halt', 'Protest', 'Riot', 'Port Strike', 'General Strike', 'Civil Service Strike', 'Civil Unrest Advisory', 'Cargo Transportation Strike', 'Energy Sector Strike'], 'Administrative Issue': ['Port Congestion', 'Police Operations', 'Roadway Closure', 'Disruption', 'Cargo', 'Industrial Action', 'Port Disruption', 'Cargo Disruption', 'Power Outage', 'Port Closure', 'Maritime Advisory', 'Train Delays', 'Ground Transportation Advisory', 'Public Transportation Disruption', 'Trade Regulation', 'Customs Regulation', 'Regulatory Advisory', 'Industry Directives', 'Security Advisory', 'Public Holidays', 'Customs Delay', 'Public Health Advisory', 'Detention', 'Aviation Advisory', 'Waterway Closure', 'Plant Closure', 'Border Closure', 'Delay', 'Industrial zone shutdown', 'Trade Restrictions', 'Closure', 'Truck Driving Ban', 'Insolvency', 'Environmental Regulations', 'Postal Disruption', 'Travel Warning'], 'Human Error': ['Workplace Accident', 'Individuals in Focus', 'Military Operations', 'Flight Delays', 'Cancellations', 'Political Info', 'Political Event'], 'Cyber Attack': ['Network Disruption', 'Ransomware', 'Data breach', 'Phishing'], 'Terrorism': ['Bombing', 'Warehouse Theft', 'Public Safety', 'Security', 'Organized Crime', 'Piracy', 'Kidnap', 'Shooting', 'Robbery', 'Cargo theft', 'Bomb Detonation', 'Terror Attack', 'Outbreak Of War', 'Militant Action'], 'Accident': ['Hazmat Response', 'Maritime Accident', 'Vehicle Accident', 'Death', 'Injury', 'Non-industrial Fire', 'Chemical Spill', 'Industrial Fire', 'Fuel Disruption', 'Airline Incident', 'Crash', 'Explosion', 'Train Accident', 'Derailment', 'Sewage Disruption', 'Barge Accident', 'Bridge Collapse', 'Structure Collapse', 'Airport Accident', 'Force Majeure', 'Telecom Outage'], 'Others': ['Miscellaneous Events', 'Miscellaneous Strikes', 'Outbreak of disease']}}.
+2. Contextual Analysis: Consider the broader context of the input. If an input could potentially fit into multiple categories, select the one that best reflects its primary intent or focus.
+3. Handling Ambiguity: For ambiguous inputs or those that do not clearly align with any category, choose the category that most closely matches the content provided.
+4. Ensure Accuracy and Consistency: Strive for consistent and accurate classifications. Avoid arbitrary or random assignments.
+5. Provide Feedback: If the input cannot be classified into any of the given categories, return “Others”.
+
+
+Output Format: Return only the name of the category that the input belongs to. If uncertain, respond with “Others”.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+russian medium source reporting court school hospital across saint petersberg evacuated today due anonymous threat understood people evacuated petrodvorets oktyabrsky kolpinsky petrogradsky kuibyshevsky sestroretsky district court furthermore state university sea river fleet st. petersburg state university railway engineering higher school folk art st. petersburg state university telecommunication s.m military medical academy kirov evacuated fourth consecutive week evacuation public building due threat known situation normalise<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+
+==================================================
+  0%|          | 0/1147 [00:00<?, ?it/s]  0%|          | 1/1147 [00:04<1:25:13,  4.46s/it]  0%|          | 2/1147 [00:10<1:41:44,  5.33s/it]  0%|          | 3/1147 [00:15<1:42:32,  5.38s/it]  0%|          | 4/1147 [00:19<1:32:54,  4.88s/it]  0%|          | 5/1147 [00:25<1:36:53,  5.09s/it]  1%|          | 6/1147 [00:31<1:40:32,  5.29s/it]  1%|          | 7/1147 [00:33<1:24:59,  4.47s/it]  1%|          | 8/1147 [00:38<1:25:17,  4.49s/it]  1%|          | 9/1147 [00:43<1:31:40,  4.83s/it]  1%|          | 10/1147 [00:48<1:27:57,  4.64s/it]  1%|          | 11/1147 [00:53<1:33:31,  4.94s/it]  1%|          | 12/1147 [00:56<1:22:42,  4.37s/it]  1%|          | 13/1147 [01:01<1:23:54,  4.44s/it]  1%|          | 14/1147 [01:07<1:30:55,  4.82s/it]  1%|▏         | 15/1147 [01:10<1:20:57,  4.29s/it]  1%|▏         | 16/1147 [01:16<1:29:19,  4.74s/it]  1%|▏         | 17/1147 [01:20<1:28:45,  4.71s/it]  2%|▏         | 18/1147 [01:25<1:26:36,  4.60s/it]  2%|▏         | 19/1147 [01:27<1:16:52,  4.09s/it]  2%|▏         | 20/1147 [01:32<1:18:19,  4.17s/it]  2%|▏         | 21/1147 [01:36<1:19:24,  4.23s/it]  2%|▏         | 22/1147 [01:41<1:21:57,  4.37s/it]  2%|▏         | 23/1147 [01:47<1:30:15,  4.82s/it]  2%|▏         | 24/1147 [01:51<1:27:46,  4.69s/it]  2%|▏         | 25/1147 [01:57<1:34:09,  5.04s/it]  2%|▏         | 26/1147 [02:05<1:52:46,  6.04s/it]  2%|▏         | 27/1147 [02:10<1:43:24,  5.54s/it]  2%|▏         | 28/1147 [02:13<1:28:44,  4.76s/it]  3%|▎         | 29/1147 [02:17<1:28:42,  4.76s/it]  3%|▎         | 30/1147 [02:24<1:37:22,  5.23s/it]  3%|▎         | 31/1147 [02:27<1:25:54,  4.62s/it]  3%|▎         | 32/1147 [02:30<1:16:23,  4.11s/it]  3%|▎         | 33/1147 [02:36<1:26:17,  4.65s/it]  3%|▎         | 34/1147 [02:42<1:33:13,  5.03s/it]  3%|▎         | 35/1147 [02:45<1:21:35,  4.40s/it]  3%|▎         | 36/1147 [02:49<1:21:41,  4.41s/it]  3%|▎         | 37/1147 [02:53<1:21:39,  4.41s/it]  3%|▎         | 38/1147 [02:59<1:29:59,  4.87s/it]  3%|▎         | 39/1147 [03:05<1:35:35,  5.18s/it]  3%|▎         | 40/1147 [03:10<1:31:18,  4.95s/it]  4%|▎         | 41/1147 [03:14<1:28:30,  4.80s/it]  4%|▎         | 42/1147 [03:17<1:18:13,  4.25s/it]  4%|▎         | 43/1147 [03:20<1:12:17,  3.93s/it]  4%|▍         | 44/1147 [03:26<1:23:02,  4.52s/it]  4%|▍         | 45/1147 [03:33<1:33:08,  5.07s/it]  4%|▍         | 46/1147 [03:37<1:29:33,  4.88s/it]  4%|▍         | 47/1147 [03:41<1:27:04,  4.75s/it]  4%|▍         | 48/1147 [03:46<1:27:02,  4.75s/it]  4%|▍         | 49/1147 [03:49<1:18:23,  4.28s/it]  4%|▍         | 50/1147 [03:54<1:19:03,  4.32s/it]  4%|▍         | 51/1147 [03:57<1:11:30,  3.91s/it]  5%|▍         | 52/1147 [04:01<1:14:20,  4.07s/it]  5%|▍         | 53/1147 [04:04<1:09:25,  3.81s/it]  5%|▍         | 54/1147 [04:09<1:14:42,  4.10s/it]  5%|▍         | 55/1147 [04:12<1:08:22,  3.76s/it]  5%|▍         | 56/1147 [04:15<1:05:11,  3.58s/it]  5%|▍         | 57/1147 [04:20<1:09:36,  3.83s/it]  5%|▌         | 58/1147 [04:23<1:04:40,  3.56s/it]  5%|▌         | 59/1147 [04:27<1:11:07,  3.92s/it]  5%|▌         | 60/1147 [04:32<1:16:00,  4.20s/it]  5%|▌         | 61/1147 [04:37<1:19:17,  4.38s/it]  5%|▌         | 62/1147 [04:42<1:19:36,  4.40s/it]  5%|▌         | 63/1147 [04:44<1:11:46,  3.97s/it]  6%|▌         | 64/1147 [04:48<1:07:28,  3.74s/it]  6%|▌         | 65/1147 [04:52<1:11:17,  3.95s/it]  6%|▌         | 66/1147 [04:57<1:18:26,  4.35s/it]  6%|▌         | 67/1147 [05:00<1:10:54,  3.94s/it]  6%|▌         | 68/1147 [05:06<1:21:19,  4.52s/it]  6%|▌         | 69/1147 [05:12<1:28:38,  4.93s/it]  6%|▌         | 70/1147 [05:17<1:25:46,  4.78s/it]  6%|▌         | 71/1147 [05:22<1:31:34,  5.11s/it]  6%|▋         | 72/1147 [05:29<1:38:27,  5.50s/it]  6%|▋         | 73/1147 [05:32<1:24:39,  4.73s/it]  6%|▋         | 74/1147 [05:38<1:33:20,  5.22s/it]  7%|▋         | 75/1147 [05:43<1:28:54,  4.98s/it]  7%|▋         | 76/1147 [05:46<1:22:18,  4.61s/it]  7%|▋         | 77/1147 [05:49<1:13:14,  4.11s/it]  7%|▋         | 78/1147 [05:56<1:25:43,  4.81s/it]  7%|▋         | 79/1147 [06:00<1:23:35,  4.70s/it]  7%|▋         | 80/1147 [06:05<1:24:08,  4.73s/it]  7%|▋         | 81/1147 [06:09<1:22:34,  4.65s/it]  7%|▋         | 82/1147 [06:14<1:21:23,  4.59s/it]  7%|▋         | 83/1147 [06:17<1:12:41,  4.10s/it]  7%|▋         | 84/1147 [06:21<1:14:24,  4.20s/it]  7%|▋         | 85/1147 [06:24<1:08:57,  3.90s/it]  7%|▋         | 86/1147 [06:29<1:13:41,  4.17s/it]  8%|▊         | 87/1147 [06:36<1:25:16,  4.83s/it]  8%|▊         | 88/1147 [06:39<1:16:34,  4.34s/it]  8%|▊         | 89/1147 [06:42<1:10:23,  3.99s/it]  8%|▊         | 90/1147 [06:45<1:06:04,  3.75s/it]  8%|▊         | 91/1147 [06:51<1:17:25,  4.40s/it]  8%|▊         | 92/1147 [06:56<1:17:29,  4.41s/it]  8%|▊         | 93/1147 [07:00<1:19:23,  4.52s/it]  8%|▊         | 94/1147 [07:06<1:26:33,  4.93s/it]  8%|▊         | 95/1147 [07:11<1:25:58,  4.90s/it]  8%|▊         | 96/1147 [07:17<1:30:53,  5.19s/it]  8%|▊         | 97/1147 [07:23<1:34:20,  5.39s/it]  9%|▊         | 98/1147 [07:27<1:29:17,  5.11s/it]  9%|▊         | 99/1147 [07:32<1:25:34,  4.90s/it]  9%|▊         | 100/1147 [07:38<1:31:01,  5.22s/it]  9%|▉         | 101/1147 [07:41<1:19:05,  4.54s/it]  9%|▉         | 102/1147 [07:45<1:18:21,  4.50s/it]  9%|▉         | 103/1147 [07:48<1:10:18,  4.04s/it]  9%|▉         | 104/1147 [07:51<1:04:26,  3.71s/it]  9%|▉         | 105/1147 [07:54<1:00:26,  3.48s/it]  9%|▉         | 106/1147 [07:57<57:41,  3.33s/it]    9%|▉         | 107/1147 [08:01<1:05:06,  3.76s/it]  9%|▉         | 108/1147 [08:04<1:00:49,  3.51s/it] 10%|▉         | 109/1147 [08:07<57:49,  3.34s/it]   10%|▉         | 110/1147 [08:12<1:05:11,  3.77s/it] 10%|▉         | 111/1147 [08:17<1:10:35,  4.09s/it] 10%|▉         | 112/1147 [08:21<1:12:10,  4.18s/it] 10%|▉         | 113/1147 [08:26<1:13:19,  4.26s/it] 10%|▉         | 114/1147 [08:29<1:06:31,  3.86s/it] 10%|█         | 115/1147 [08:32<1:01:48,  3.59s/it] 10%|█         | 116/1147 [08:38<1:16:03,  4.43s/it] 10%|█         | 117/1147 [08:41<1:08:18,  3.98s/it] 10%|█         | 118/1147 [08:47<1:17:55,  4.54s/it] 10%|█         | 119/1147 [08:50<1:09:33,  4.06s/it] 10%|█         | 120/1147 [08:53<1:03:55,  3.74s/it] 11%|█         | 121/1147 [08:56<59:55,  3.50s/it]   11%|█         | 122/1147 [08:59<57:10,  3.35s/it] 11%|█         | 123/1147 [09:02<54:57,  3.22s/it] 11%|█         | 124/1147 [09:06<1:03:02,  3.70s/it] 11%|█         | 125/1147 [09:09<59:11,  3.47s/it]   11%|█         | 126/1147 [09:15<1:11:30,  4.20s/it] 11%|█         | 127/1147 [09:20<1:12:28,  4.26s/it] 11%|█         | 128/1147 [09:26<1:20:49,  4.76s/it] 11%|█         | 129/1147 [09:30<1:19:09,  4.67s/it] 11%|█▏        | 130/1147 [09:36<1:25:17,  5.03s/it] 11%|█▏        | 131/1147 [09:40<1:22:00,  4.84s/it] 12%|█▏        | 132/1147 [09:43<1:12:24,  4.28s/it] 12%|█▏        | 133/1147 [09:48<1:14:15,  4.39s/it] 12%|█▏        | 134/1147 [09:52<1:14:24,  4.41s/it] 12%|█▏        | 135/1147 [09:57<1:14:30,  4.42s/it] 12%|█▏        | 136/1147 [10:02<1:16:38,  4.55s/it] 12%|█▏        | 137/1147 [10:07<1:17:42,  4.62s/it] 12%|█▏        | 138/1147 [10:11<1:16:36,  4.56s/it] 12%|█▏        | 139/1147 [10:16<1:17:42,  4.63s/it] 12%|█▏        | 140/1147 [10:20<1:16:32,  4.56s/it] 12%|█▏        | 141/1147 [10:27<1:25:58,  5.13s/it] 12%|█▏        | 142/1147 [10:33<1:32:28,  5.52s/it] 12%|█▏        | 143/1147 [10:39<1:34:06,  5.62s/it] 13%|█▎        | 144/1147 [10:43<1:28:00,  5.26s/it] 13%|█▎        | 145/1147 [10:46<1:16:12,  4.56s/it] 13%|█▎        | 146/1147 [10:52<1:20:15,  4.81s/it] 13%|█▎        | 147/1147 [10:55<1:10:55,  4.26s/it] 13%|█▎        | 148/1147 [10:59<1:11:43,  4.31s/it] 13%|█▎        | 149/1147 [11:05<1:19:47,  4.80s/it] 13%|█▎        | 150/1147 [11:09<1:17:55,  4.69s/it] 13%|█▎        | 151/1147 [11:14<1:18:09,  4.71s/it] 13%|█▎        | 152/1147 [11:20<1:24:14,  5.08s/it] 13%|█▎        | 153/1147 [11:25<1:20:58,  4.89s/it] 13%|█▎        | 154/1147 [11:27<1:11:15,  4.31s/it] 14%|█▎        | 155/1147 [11:30<1:04:24,  3.90s/it] 14%|█▎        | 156/1147 [11:33<59:40,  3.61s/it]   14%|█▎        | 157/1147 [11:39<1:11:02,  4.31s/it] 14%|█▍        | 158/1147 [11:42<1:04:13,  3.90s/it] 14%|█▍        | 159/1147 [11:45<59:22,  3.61s/it]   14%|█▍        | 160/1147 [11:52<1:12:52,  4.43s/it] 14%|█▍        | 161/1147 [11:54<1:05:31,  3.99s/it] 14%|█▍        | 162/1147 [11:57<1:00:22,  3.68s/it] 14%|█▍        | 163/1147 [12:03<1:11:13,  4.34s/it] 14%|█▍        | 164/1147 [12:09<1:18:56,  4.82s/it] 14%|█▍        | 165/1147 [12:12<1:09:42,  4.26s/it] 14%|█▍        | 166/1147 [12:15<1:03:12,  3.87s/it] 15%|█▍        | 167/1147 [12:18<58:38,  3.59s/it]   15%|█▍        | 168/1147 [12:23<1:02:36,  3.84s/it] 15%|█▍        | 169/1147 [12:27<1:05:31,  4.02s/it] 15%|█▍        | 170/1147 [12:33<1:14:26,  4.57s/it] 15%|█▍        | 171/1147 [12:39<1:20:54,  4.97s/it] 15%|█▍        | 172/1147 [12:43<1:18:02,  4.80s/it] 15%|█▌        | 173/1147 [12:46<1:08:51,  4.24s/it] 15%|█▌        | 174/1147 [12:52<1:16:39,  4.73s/it] 15%|█▌        | 175/1147 [12:59<1:28:07,  5.44s/it] 15%|█▌        | 176/1147 [13:04<1:25:10,  5.26s/it] 15%|█▌        | 177/1147 [13:08<1:21:02,  5.01s/it] 16%|█▌        | 178/1147 [13:13<1:18:08,  4.84s/it] 16%|█▌        | 179/1147 [13:16<1:08:52,  4.27s/it] 16%|█▌        | 179/1147 [13:18<1:11:59,  4.46s/it]
+Batch output: ['Human Error']
+Traceback (most recent call last):
+  File "/common/home/users/d/dh.huang.2023/common2/code/classification-models-for-global-incidents/llm_toolkit/eval_shots.py", line 130, in <module>
+    evaluate_model_with_num_shots(
+  File "/common/home/users/d/dh.huang.2023/common2/code/classification-models-for-global-incidents/llm_toolkit/eval_shots.py", line 103, in evaluate_model_with_num_shots
+    predictions = eval_model(
+                  ^^^^^^^^^^^
+srun: error: lagoon: task 0: Exited with exit code 1
+  File "/common/home/users/d/dh.huang.2023/common2/code/classification-models-for-global-incidents/llm_toolkit/llm_utils.py", line 214, in eval_model
+    outputs = model.generate(
+srun: Terminating StepId=82252.0
+              ^^^^^^^^^^^^^^^
+  File "/common/home/users/d/dh.huang.2023/.conda/envs/llm-perf-bench/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/common/home/users/d/dh.huang.2023/.conda/envs/llm-perf-bench/lib/python3.11/site-packages/transformers/generation/utils.py", line 1989, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/common/home/users/d/dh.huang.2023/.conda/envs/llm-perf-bench/lib/python3.11/site-packages/transformers/generation/utils.py", line 2932, in _sample
+    outputs = self(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/common/home/users/d/dh.huang.2023/.conda/envs/llm-perf-bench/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/common/home/users/d/dh.huang.2023/.conda/envs/llm-perf-bench/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/common/home/users/d/dh.huang.2023/.conda/envs/llm-perf-bench/lib/python3.11/site-packages/accelerate/hooks.py", line 169, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/common/home/users/d/dh.huang.2023/.conda/envs/llm-perf-bench/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 1161, in forward
+    logits = logits.float()
+             ^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 864.00 MiB. GPU 0 has a total capacity of 44.31 GiB of which 788.31 MiB is free. Including non-PyTorch memory, this process has 43.53 GiB memory in use. Of the allocated memory 42.73 GiB is allocated by PyTorch, and 312.33 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Job ID: 82252
+Cluster: crimson
+User/Group: dh.huang.2023/dh.huang.2023
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 10
+CPU Utilized: 00:18:30
+CPU Efficiency: 9.41% of 03:16:40 core-walltime
+Job Wall-clock time: 00:19:40
+Memory Utilized: 4.43 GB
+Memory Efficiency: 1.73% of 256.00 GB

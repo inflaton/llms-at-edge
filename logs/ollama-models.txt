@@ -1,0 +1,76 @@
+loading env vars from: d:\code\projects\classification-models-for-global-incidents\.env
+Adding d:\code\projects\classification-models-for-global-incidents to sys.path
+microsoft/Phi-3.5-mini-instruct dataset/global_incidents_v2.csv results/ollama_model_results_v2.csv 2048
+Evaluating model: llama3.1:8b
+loading train/test data files
+DatasetDict({
+    train: Dataset({
+        features: ['Details', 'Details_cleaned', 'Category', 'Summarized_label'],
+        num_rows: 4597
+    })
+    test: Dataset({
+        features: ['Details', 'Details_cleaned', 'Category', 'Summarized_label'],
+        num_rows: 1147
+    })
+})
+--------------------------------------------------
+Details: Russian media sources are reporting that courts, schools, and hospitals across Saint Petersberg have been evacuated today due to anonymous threats. It is understood that people have been evacuated from Petrodvorets, Oktyabrsky, Kolpinsky, Petrogradsky, Kuibyshevsky and Sestroretsky district courts. Furthermore, the State University of the Sea and River Fleet, St. Petersburg State University of Railway Engineering, Higher School of Folk Arts, St. Petersburg State University of Telecommunications, and S.M. Military Medical Academy Kirov have all been evacuated. This is the fourth consecutive week of evacuations from public buildings due to such threats. It is not known when the situation will normalise.
+--------------------------------------------------
+Details_cleaned: russian medium source reporting court school hospital across saint petersberg evacuated today due anonymous threat understood people evacuated petrodvorets oktyabrsky kolpinsky petrogradsky kuibyshevsky sestroretsky district court furthermore state university sea river fleet st. petersburg state university railway engineering higher school folk art st. petersburg state university telecommunication s.m military medical academy kirov evacuated fourth consecutive week evacuation public building due threat known situation normalise
+--------------------------------------------------
+Category: Public Safety / Security
+--------------------------------------------------
+Summarized_label: Terrorism
+==================================================
+* Evaluating with num_shots: 0
+100%|██████████| 1147/1147 [1:09:24<00:00,  3.63s/it]
+llama3.1:8b/shots-00 metrics: {'accuracy': 0.47602441150828245}
+* Evaluating with num_shots: 1
+100%|██████████| 1147/1147 [1:43:44<00:00,  5.43s/it] 
+llama3.1:8b/shots-01 metrics: {'accuracy': 0.5457715780296426}
+* Evaluating with num_shots: 3
+100%|██████████| 1147/1147 [1:29:43<00:00,  4.69s/it]
+llama3.1:8b/shots-03 metrics: {'accuracy': 0.7724498692240628}
+* Evaluating with num_shots: 5
+100%|██████████| 1147/1147 [1:29:17<00:00,  4.67s/it]
+llama3.1:8b/shots-05 metrics: {'accuracy': 0.7750653879686138}
+* Evaluating with num_shots: 10
+100%|██████████| 1147/1147 [2:33:45<00:00,  8.04s/it] 
+llama3.1:8b/shots-10 metrics: {'accuracy': 0.0}
+
+Evaluating model: llama3.1:70b
+loading train/test data files
+DatasetDict({
+    train: Dataset({
+        features: ['Details', 'Details_cleaned', 'Category', 'Summarized_label'],
+        num_rows: 4597
+    })
+    test: Dataset({
+        features: ['Details', 'Details_cleaned', 'Category', 'Summarized_label'],
+        num_rows: 1147
+    })
+})
+--------------------------------------------------
+Details: Russian media sources are reporting that courts, schools, and hospitals across Saint Petersberg have been evacuated today due to anonymous threats. It is understood that people have been evacuated from Petrodvorets, Oktyabrsky, Kolpinsky, Petrogradsky, Kuibyshevsky and Sestroretsky district courts. Furthermore, the State University of the Sea and River Fleet, St. Petersburg State University of Railway Engineering, Higher School of Folk Arts, St. Petersburg State University of Telecommunications, and S.M. Military Medical Academy Kirov have all been evacuated. This is the fourth consecutive week of evacuations from public buildings due to such threats. It is not known when the situation will normalise.
+--------------------------------------------------
+Details_cleaned: russian medium source reporting court school hospital across saint petersberg evacuated today due anonymous threat understood people evacuated petrodvorets oktyabrsky kolpinsky petrogradsky kuibyshevsky sestroretsky district court furthermore state university sea river fleet st. petersburg state university railway engineering higher school folk art st. petersburg state university telecommunication s.m military medical academy kirov evacuated fourth consecutive week evacuation public building due threat known situation normalise
+--------------------------------------------------
+Category: Public Safety / Security
+--------------------------------------------------
+Summarized_label: Terrorism
+==================================================
+* Evaluating with num_shots: 0
+100%|██████████| 1147/1147 [8:33:58<00:00, 26.89s/it]   
+llama3.1:70b/shots-00 metrics: {'accuracy': 0.8910200523103748}
+* Evaluating with num_shots: 1
+100%|██████████| 1147/1147 [3:35:36<00:00, 11.28s/it]   
+llama3.1:70b/shots-01 metrics: {'accuracy': 0.9354838709677419}
+* Evaluating with num_shots: 3
+100%|██████████| 1147/1147 [3:38:00<00:00, 11.40s/it]   
+llama3.1:70b/shots-03 metrics: {'accuracy': 0.937227550130776}
+* Evaluating with num_shots: 5
+100%|██████████| 1147/1147 [3:36:34<00:00, 11.33s/it]   
+llama3.1:70b/shots-05 metrics: {'accuracy': 0.9363557105492589}
+* Evaluating with num_shots: 10
+100%|██████████| 1147/1147 [119:15:11<00:00, 374.29s/it]    
+llama3.1:70b/shots-10 metrics: {'accuracy': 0.0}

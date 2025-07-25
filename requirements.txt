@@ -1,0 +1,19 @@
+black==24.10.0
+transformers==4.46.3
+python-dotenv==1.0.1
+evaluate==0.4.3
+langchain-openai==0.2.10
+langchain-cerebras==0.3.0
+langchain-ollama==0.2.0
+langchain==0.3.9
+accelerate==1.1.1
+sentencepiece==0.2.0
+protobuf==5.29.2
+matplotlib==3.9.3
+jupyter==1.1.1
+ipywidgets==8.1.5
+scikit-learn==1.5.2
+seaborn==0.13.2
+# vllm==0.6.4.post1
+# triton==3.1.0
+numpy==1.26.4
