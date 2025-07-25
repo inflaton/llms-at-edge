@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains all the code and data associated with the paper[LLMs at the Edge: Performance and Efficiency Evaluation with Ollama on Diverse Hardware](IJCNN_2025_Paper_ID_1443__LLMs_at_the_Edge__Performance_and_Efficiency_Evaluation_with_Ollama_on_Diverse_Hardware.pdf), published at IJCNN 2025.
+This repository contains all the code and data associated with the paper [LLMs at the Edge: Performance and Efficiency Evaluation with Ollama on Diverse Hardware](IJCNN_2025_Paper_ID_1443__LLMs_at_the_Edge__Performance_and_Efficiency_Evaluation_with_Ollama_on_Diverse_Hardware.pdf), published at IJCNN 2025.
 
 ## Installation
 
